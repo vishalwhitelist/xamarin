@@ -1,0 +1,23 @@
+using System;
+
+namespace helloapp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter no 10rs coin");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no 5rs coin");
+            int num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no 2rs coin");
+            int num3 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no 1rs coin");
+            int num4= int.Parse(Console.ReadLine());
+
+            int result =( num1 * 10) + (num2 * 5)+ (num3 * 2) + (num4 *1  );
+            Console.WriteLine("result" + result);
+            Console.ReadKey();
+        }
+    }
+}
