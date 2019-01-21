@@ -1,0 +1,18 @@
+using System;
+
+namespace helloapp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter num1");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter num2");
+            int num2 = int.Parse(Console.ReadLine());
+            int result = num1 + num2;
+            Console.WriteLine("result" + result);
+            Console.ReadKey();
+        }
+    }
+}
